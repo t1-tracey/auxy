@@ -1,0 +1,40 @@
+@import url('/fonts/stylesheet.css');
+
+body {
+  margin: 0px;
+  font-family: 'Apercu';
+  font-weight: 300;
+  font-size: 20px;
+  background: #000000;
+  color: white;
+  cursor: default;
+}
+div.banner {
+  font-size: 23px;
+  border-bottom: 2px solid #222222;
+  display: flex;
+  padding: 0px 20px 0px 20px;
+  justify-content: space-between;
+}
+div.banner img {
+  height: 25px;
+}
+div.banner div {
+  display: inline-block;
+}
+div.left {
+  padding: 20px 0px 20px 0px;
+  text-align: left;
+}
+div.center {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+div.right {
+  padding: 20px 0px 20px 0px;
+  text-align: right;
+}
+div.main {
+  padding: 20px;
+  font-size: 23px;
+}
